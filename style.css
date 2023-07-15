@@ -1,0 +1,87 @@
+body {
+  background-color: #181717;
+  color: #eaeaef;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  gap: 2rem;
+}
+
+li {
+  color: white;
+  font-size: 1.2em;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+li:hover {
+  color: antiquewhite;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 5 2px;
+  background-color: rgb(40, 192, 138);
+  letter-spacing: 0.08cm;
+  border-radius: 1rem;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: rgb(59, 234, 173);
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 3rem;
+}
+
+.img {
+  height: 542px;
+  width: 385px;
+  border-radius: 1rem;
+}
+
+.main {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  padding-left: 2.25rem;
+}
+
+.name {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.heading {
+  font-size: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.content1 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.end {
+  text-align: center;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
